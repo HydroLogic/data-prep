@@ -1,0 +1,10 @@
+#Get location info from hosted raster in a zip file
+gdallocationinfo /vsizip/vsicurl/http://topotools.cr.usgs.gov/gmted_viewer/data/Grid_ZipFiles/\ be75_grd.zip/be75_grd -geoloc 174.7772239 -41.2887639 
+
+
+#Metadata from link
+gdalinfo /vsicurl/http://published-files.eea.europa.eu/eudem/\ jrc_r_3035_25_m_gsgrda-eudem-dem-europe_2012_rev1/eudem_dem_3035_europe.tif 
+
+#Create a symbolic link inside linux shell
+ln -s /vsicurl/http://published-files.eea.europa.eu/eudem/\
+jrc_r_3035_25_m_gsgrda-eudem-dem-europe_2012_rev1/eudem_dem_3035_europe.tif
