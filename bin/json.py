@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python
 import simplejson as json
 print "Content-type: application/json\n"
 data = { 'a':'A', 'b':[2, 4], 'c':3.0 }

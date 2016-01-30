@@ -1,3 +1,7 @@
+
+
+
+
 #Get location info from hosted raster in a zip file
 gdallocationinfo /vsizip/vsicurl/http://topotools.cr.usgs.gov/gmted_viewer/data/Grid_ZipFiles/\ be75_grd.zip/be75_grd -geoloc 174.7772239 -41.2887639 
 

@@ -2,7 +2,7 @@
 #### Git
 ```Shell
 git add . 
-git commit -m "In the zone"
+git commit -m "in the zone mang"
 git push -u origin master
 ```
 #### Setting up CGI and Command Line shit
